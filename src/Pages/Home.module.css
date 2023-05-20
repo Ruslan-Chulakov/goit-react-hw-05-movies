@@ -1,0 +1,29 @@
+.title {
+    text-align: center;
+    margin: 30px;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 20px;
+    column-gap: 30px;
+    list-style: none;
+
+}
+
+.item {
+    width: 200px;
+}
+
+.filmName {
+    text-align: center;
+    padding: 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}

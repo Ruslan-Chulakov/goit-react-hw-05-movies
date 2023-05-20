@@ -6,10 +6,12 @@ import fetchCast from "utils/fetchCast";
 
 const Cast = () => {
     const [cast, setCast] = useState([]);
-    const {movieId} = useParams()
-    useEffect(() => {
-        fetchCast(movieId).then(response => setCast(response.cast))
-    }, [movieId])
+  const { movieId } = useParams()
+  
+  useEffect(() => {
+    fetchCast(movieId).then(response => setCast(response.cast))
+  }, [movieId]);
+  
     return (
       <div>
         <h5>cast info</h5>
